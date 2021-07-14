@@ -23,11 +23,11 @@ from utils.utils import (DecodeBox, letterbox_image, non_max_suppression,
 #--------------------------------------------#
 class YOLO(object):
     _defaults = {
-        "model_path"        : 'model_data/yolo_weights.pth',
+        "model_path"        : 'logs/Epoch5-Total_Loss6.9939-Val_Loss6.8193.pth',
         "anchors_path"      : 'model_data/yolo_anchors.txt',
-        "classes_path"      : 'model_data/coco_classes.txt',
+        "classes_path"      : 'model_data/word_classes_en.txt',
         "model_image_size"  : (416, 416, 3),
-        "confidence"        : 0.5,
+        "confidence"        : 0.1,
         "iou"               : 0.3,
         "cuda"              : True,
         #---------------------------------------------------------------------#

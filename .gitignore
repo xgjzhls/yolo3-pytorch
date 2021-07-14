@@ -1,0 +1,17 @@
+```
+# python
+*.py[cod]
+
+```
+*.jpg
+*.xml
+*.pth
+2007_test.txt
+2007_train.txt
+2007_val.txt
+VOCdevkit/VOC2007/ImageSets/Main/test.txt
+VOCdevkit/VOC2007/ImageSets/Main/train.txt
+VOCdevkit/VOC2007/ImageSets/Main/trainval.txt
+VOCdevkit/VOC2007/ImageSets/Main/val.txt
+
+logs/

@@ -11,6 +11,7 @@ from tqdm import tqdm
 from nets.yolo3 import YoloBody
 from nets.yolo_training import YOLOLoss, LossHistory, weights_init
 from utils.dataloader import YoloDataset, yolo_dataset_collate
+from utils.var import (num_classes)
 
 
 def get_anchors(anchors_path):
@@ -140,7 +141,7 @@ if __name__ == "__main__":
     #   需要修改num_classes直接修改此处的num_classes即可
     #   如果需要检测5个类, 这里就写5. 默认为20
     #------------------------------------------------------#
-    num_classes = 20
+    # num_classes = 20
     #----------------------------------------------------#
     #   先验框anchor的路径
     #----------------------------------------------------#
